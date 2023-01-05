@@ -1,0 +1,55 @@
+/* 카테고리별 추천 광고상품 */
+header {
+    display: flex;
+    width: 1020px;
+    height: auto;
+    margin: 100px auto 48px auto;
+}
+
+header h1 {
+    margin: 0px;
+    display: block;
+    width: 1020px;
+}
+
+section {
+    width: 1020px;
+    height: 1376px;
+    border: 1px solid red;
+    margin: auto;
+    position: relative;
+}
+
+section .category-best-title-sub {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-back);
+}
+
+section .category-best-title {
+    color: var(--color-back);
+}
+
+h3 .category-best-title-em{
+    color: var(--color-blue-600);
+}
+
+article {
+    margin-top: 24px;
+    position: relative;
+}
+
+article .category-go{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 120%;
+    color: var(--color-gray-700);
+}
+
+.category-go a{
+    width: 6px;
+    height: 10px;
+    display: inline-block;
+    background-image: url(/Mission-03/assets/icon/angle-right-default.svg);
+    background-repeat: no-repeat;
+}
